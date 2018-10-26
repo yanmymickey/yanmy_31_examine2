@@ -1,0 +1,182 @@
+	@media screen and (max-width: 900px) {
+	body {
+		min-height: 485px;
+		overflow: hidden;
+		position: relative;
+	}
+	@media screen and (max-height: 485px) {
+		body {
+			overflow: visible;
+			padding-bottom: 50px;
+		}
+	}
+	/*上部*/
+	.upon_big_box {
+		width: 100%;
+		min-width: 0px;
+		height: 67%;
+		background: url(../img/g_banner_background.png) no-repeat center center;
+		background-size: cover;
+	}
+	.upon_little_box {
+		width: 100%;
+		height: 0;
+		position: relative;
+	}
+	.logo {
+		height: 50px;
+		width: 50px;
+		background: url(../img/g_logo.png) no-repeat center center;
+		background-size: contain;
+		margin: 20px;
+		border-radius: 7px;
+	}
+	.logo_font {
+		display: inline-block;
+		line-height: 85px;
+		font-size: 30px;
+		color: #fff;
+		font-family: 'yueyuan';
+	}
+	.download_system_slect_all {
+		display: none;
+	}
+	/*中部*/
+	.content {
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+	.gonggong_large_box {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		padding: 90px 0 0 0;
+	}
+	.gonggong_font_large_box {
+		color: #efefef;
+		font-family: 'yueyuan';
+		font-size: 33px;
+		position: relative;
+	}
+	.gonggong_font {
+		font-size: 53px;
+		font-family: 'yueyuan';
+		padding-right: 15px;
+	}
+	.beta {
+		display: inline-block;
+		height: 25px;
+		width: 80px;
+		font-size: 15px;
+		line-height: 25px;
+		margin-left: 0px;
+		position: absolute;
+		top: 23px;
+		left: 80px;
+	}
+	.gonggong_font_large_box .gonggong_font {
+		display: block;
+		font-size: 35px;
+	}
+	.gonggong_font::after {
+		display: none;
+	}
+	.xtu_simple {
+		display: none;
+	}
+	.download_box {
+		margin: 10px 0;
+		margin-left: 6%;
+		height: 70px;
+		width: 45%;
+		max-width: 280px;
+	}
+	.download_button {
+		float: left;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		line-height: 70px;
+		font-size: 20px;
+		color: #fff;
+		border-radius: 10px;
+		background: #fb6c6d;
+		user-select: none;
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		cursor: pointer;
+	}
+	.download_button i {
+		margin-right: 15px;
+	}
+	a:hover {
+		background-color: #ff5454;
+	}
+	.download_QR_code {
+		display: none;
+	}
+	.size_of_software {
+		font-size: 12px;
+		margin-right: 10px;
+		margin-left: 6%;
+	}
+	.Recently_updated {
+		font-size: 12px;
+	}
+	.android_showpage {
+		width: 40%;
+		height: 80%;
+		position: absolute;
+		right: 82px;
+		bottom: 40px;
+		right: 3%;
+		background-repeat: no-repeat;
+		background-position: bottom center;
+		background-size: contain;
+	}
+	/*下部*/
+	.introduce_large_box {
+		width: 90%;
+		height: 33%;
+		padding: 0;
+	}
+	.introduce_little_box {
+		height: 100%;
+		float: left;
+	}
+	.introduce_pic {
+		width: 80%;
+		height: 0;
+		padding-bottom: 80%;
+		margin: 20px auto 0;
+	}
+	.introduce_little_box:nth-child(1) .introduce_pic {
+		background: url(../img/g_feature.png) no-repeat 400% auto;
+	}
+	.introduce_little_box:nth-child(2) .introduce_pic {
+		background: url(../img/g_feature.png) no-repeat 400% auto;
+	}
+	.introduce_little_box:nth-child(3) .introduce_pic {
+		background: url(../img/g_feature.png) no-repeat 400% auto;
+	}
+	.introduce_little_box:nth-child(4) .introduce_pic {
+		background: url(../img/g_feature.png) no-repeat 400% auto;
+	}
+	.introduce_word {
+		margin-top: 10px;
+		text-align: center;
+		color: #373737;
+		font-size: 14px;
+	}
+	.footer {
+		min-width: 0;
+		height: 50px;
+		line-height: 50px;
+		background: transparent;
+		color: #989898;
+		font-size: 12px;
+		position: absolute;
+		bottom: 0;
+	}
